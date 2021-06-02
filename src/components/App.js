@@ -1,11 +1,11 @@
 import "../styles/App.css";
+import Wave from "./Wave";
 
 const App = () => {
   return (
     <div className='App'>
-      <header className='App-header'>
-        <h1>Header</h1>
-      </header>
+      <div className='bigBall'></div>
+      <div className='smallBall'></div>
     </div>
   );
 };
