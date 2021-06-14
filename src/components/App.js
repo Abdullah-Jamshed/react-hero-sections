@@ -7,9 +7,10 @@ const App = () => {
   return (
     <div className='App'>
       <Nav />
+      {/* <HeroSection1 /> */}
 
-      <HeroSection1 />
-      {/* <HeroSection2 /> */}
+      <HeroSection2 />
+
     </div>
   );
 };
