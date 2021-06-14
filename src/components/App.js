@@ -1,11 +1,15 @@
 import "../styles/App.css";
-import Wave from "./Wave";
+import Nav from "./Nav";
+import HeroSection1 from "./HeroSection1";
+import HeroSection2 from "./HeroSection2";
 
 const App = () => {
   return (
     <div className='App'>
-      <div className='bigBall'></div>
-      <div className='smallBall'></div>
+      <Nav />
+
+      <HeroSection1 />
+      {/* <HeroSection2 /> */}
     </div>
   );
 };

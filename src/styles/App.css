@@ -1,0 +1,137 @@
+.nav {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  font-size: 1rem;
+  height: 80px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  margin-top: -80px;
+  transition: all 0.4s ease-in;
+}
+
+.nav-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.colBG {
+  background: #000;
+}
+.transBG {
+  background: transparent;
+}
+
+.brand-name {
+  font-size: 30px;
+  color: rgb(255, 145, 163);
+}
+
+.text {
+  font-size: 19px;
+  line-height: 1.5;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+}
+
+.links > li {
+  margin: 0 12px;
+  color: #fff;
+  font-size: 17px;
+}
+
+.heroSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.heroSection::before {
+  content: "";
+  background-image: url("../images/pattern.jpg");
+  filter: blur(20px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.heroContent {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 3;
+}
+
+.heroContent > div {
+  width: 500px;
+  margin: 50px !important;
+}
+
+.imageContainer > img {
+  height: 100%;
+  width: 100%;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.fadeIn {
+  animation-name: fadeInani;
+}
+
+@keyframes fadeInani {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .links {
+    display: none;
+  }
+  .heroContent > div {
+    width: 100%;
+  }
+  .menu-icon {
+    display: inline;
+    width: 30px;
+    height: 30px;
+  }
+
+  .brand-name {
+    font-size: 22px;
+    color: rgb(255, 145, 163);
+  }
+  .imageContainer {
+    display: none;
+  }
+  .text {
+    font-size: 16px !important;
+  }
+}
