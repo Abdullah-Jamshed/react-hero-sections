@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "../images/herobg.svg";
 
+import "../styles/herosection1.css"
 
 
 const HeroSection1 = () => {
