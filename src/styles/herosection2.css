@@ -1,8 +1,8 @@
 .heroContainer {
   position: relative;
   width: 100%;
-  height: 100vh;
-  background: linear-gradient(150deg, #f857ae, #eb7d0f);
+  height: 80vh;
+  background: linear-gradient(150deg, #f857ae,#f26964, #eb7d0f);
   z-index: 1;
 }
 
@@ -13,7 +13,6 @@
   width: 100%;
   height: 143px;
   z-index: 20;
-  /* background: red; */
   background: url("../images/wave.png");
   animation: ani1 10s linear infinite;
 }
