@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Bar from "../images/menu.svg";
 
-const Nav = () => {
+const Nav = ({headingColor}) => {
   const [pageName, setPageName] = useState("home");
   const [scrollNav, setScrollNav] = useState(false);
 
@@ -26,7 +26,7 @@ const Nav = () => {
   return (
     <nav className={`nav ${scrollNav ? "colBG" : "transBG"} `}>
       <div className='nav-container'>
-        <h2 className='brand-name'>MYBRAND</h2>
+        <h2 className='brand-name' style={{color:`${headingColor}`}}>MYBRAND</h2>
         <ul className='links'>
           <li>Home</li>
           <li>About</li>
