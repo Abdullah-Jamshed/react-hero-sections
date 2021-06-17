@@ -5,6 +5,7 @@ import Bar from "../images/menu.svg";
 import { FaChevronDown } from "react-icons/fa";
 
 const Nav = ({ headingColor, navBg }) => {
+  // eslint-disable-next-line
   const [pageName, setPageName] = useState("home");
   const [scrollNav, setScrollNav] = useState(false);
   const [dropdownShow, setDropdownShow] = useState(false);
@@ -50,10 +51,14 @@ const Nav = ({ headingColor, navBg }) => {
               <div className='dropdown'>
                 <ul className='dropdown-content'>
                   <li>
-                    <Link className="dropdown-item" to='/hero1'>hero1</Link>
+                    <Link className='dropdown-item' to='/hero1'>
+                      hero1
+                    </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" to='/hero2'>hero2</Link>
+                    <Link className='dropdown-item' to='/hero2'>
+                      hero2
+                    </Link>
                   </li>
                 </ul>
               </div>

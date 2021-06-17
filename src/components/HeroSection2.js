@@ -1,14 +1,11 @@
 import React from "react";
 import "../styles/herosection2.css";
-import Nav from "./Nav";
 
 const HeroSection2 = () => {
   return (
-    <>
-      <div className='heroContainer'>
-        <div className='wave'></div>
-      </div>
-    </>
+    <div className='heroContainer'>
+      <div className='wave'></div>
+    </div>
   );
 };
 
