@@ -1,0 +1,22 @@
+.hero3 {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: url("../images/hero3bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.hero3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  background: #0f4629;
+  opacity: 0.4;
+}
