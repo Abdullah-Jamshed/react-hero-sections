@@ -1,8 +1,7 @@
 import React from "react";
 import Image from "../images/herobg.svg";
 
-import "../styles/herosection1.css"
-
+import "../styles/herosection1.css";
 
 const HeroSection1 = () => {
   const text = `Lorem ips o eum illo cupiditate accusamus, fugiat nostrum quaerat. Dignissimos, officiis error amet fuga enim sequi. Suscipit ratione odit labore cum, praesentium sequi!`;
@@ -23,7 +22,7 @@ const HeroSection1 = () => {
           </h2>
           <p className='text'>
             {words.map((word, i) => (
-              <span className='animated fadeIn' style={{ animationDelay: `${i * 0.1}s` }}>
+              <span key={i} className='animated fadeIn' style={{ animationDelay: `${i * 0.1}s` }}>
                 {word + ` `}
               </span>
             ))}
