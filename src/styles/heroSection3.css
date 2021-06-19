@@ -1,12 +1,11 @@
 .hero3 {
   position: relative;
-  height: 100vh;
-  width: 100%;
-  background: url("../images/hero3bg.jpg");
+  background: url("../images/hero3bg.webp");
   background-repeat: no-repeat;
-  background-position: center;
+  height: 0;
   background-size: cover;
-  background-attachment: fixed;
+  background-position: right top;
+  padding-top: 50%;
 }
 
 .hero3::before {
