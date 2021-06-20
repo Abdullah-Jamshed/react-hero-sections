@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "../images/herobg.svg";
 
-import styles from "../styles/scss/heroSection1.module.scss";
+import styles from "../styles/sass/heroSection1.module.scss";
 
 const HeroSection1 = () => {
   const text = `Lorem ips o eum illo cupiditate accusamus, fugiat nostrum quaerat. Dignissimos, officiis error amet fuga enim sequi. Suscipit ratione odit labore cum, praesentium sequi!`;
