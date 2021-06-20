@@ -34,7 +34,7 @@
 }
 
 .text {
-  font-size: 19px;
+  font-size: 1.9rem;
   line-height: 1.5;
 }
 
@@ -72,9 +72,6 @@
   }
   .imageContainer {
     display: none;
-  }
-  .text {
-    font-size: 16px !important;
   }
 }
 
