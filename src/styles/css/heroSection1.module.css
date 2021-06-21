@@ -1,0 +1,83 @@
+.heroSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  animation: aaall 0.5s ease-in-out;
+}
+.heroSection::before {
+  content: "";
+  background-image: url("../../images/pattern.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(20px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.5;
+  z-index: 1;
+}
+.heroSection .heroContent {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 3;
+}
+.heroSection .heroContent > div {
+  width: 500px;
+  margin: 50px !important;
+}
+.heroSection h1 {
+  font-size: 2rem;
+}
+.heroSection .text {
+  font-size: 1.9rem;
+  line-height: 1.5;
+}
+
+.imageContainer > img {
+  height: 100%;
+  width: 100%;
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.fadeIn {
+  animation-name: fadeInani;
+}
+
+@keyframes fadeInani {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 500px) {
+  .heroContent > div {
+    width: 100%;
+  }
+
+  .imageContainer {
+    display: none;
+  }
+}
+@keyframes aaall {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
