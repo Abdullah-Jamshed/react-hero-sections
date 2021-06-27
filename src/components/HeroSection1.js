@@ -10,14 +10,13 @@ const HeroSection1 = () => {
     <div className={`${styles.heroSection}`}>
       <div className={`${styles.heroContent}`}>
         <div>
-          <h1 style={{ marginBottom: "10px", fontSize: "4rem" }} className={`${(styles.animated, styles.fadeIn)} `}>
+          <h1 style={{ fontSize: "40px", marginBottom: "10px", fontSize: "4rem" }} className={`${(styles.animated, styles.fadeIn)} `}>
             Heading
           </h1>
           <h2 style={{ marginBottom: "20px" }}>
             {"Lorem ips o eum illo cupiditate accusamus, ".split(" ").map((word, i) => (
               <span className={`${styles.animated} ${styles.fadeIn} `} style={{ animationDelay: `${i * 0.1}s` }}>
                 {word + ` `}
-                
               </span>
             ))}
           </h2>
