@@ -23,6 +23,19 @@ const Section4 = () => {
           Hover Me
         </a>
       </div>
+      <div className=''>
+        <a href='#' className='neon-btn2'>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          Hover Me
+        </a>
+      </div>
+
+      <div className='box'>
+        <h3 className='heading'> Loading</h3>
+      </div>
     </div>
   );
 };
