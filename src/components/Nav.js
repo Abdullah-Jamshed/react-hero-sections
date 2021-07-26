@@ -65,6 +65,11 @@ const Nav = ({ headingColor, navBg }) => {
                       hero3
                     </Link>
                   </li>
+                  <li>
+                    <Link className='dropdown-item' to='/hero4'>
+                      hero4
+                    </Link>
+                  </li>
                 </ul>
               </div>
             )}

@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Redirect, Route, Switch } from "react-router-d
 import Section1 from "../pages/Section1";
 import Section2 from "../pages/Section2";
 import Section3 from "../pages/Section3";
+import Section4 from "../pages/Section4";
 
 const Routes = () => {
   return (
@@ -12,6 +13,7 @@ const Routes = () => {
         <Route path='/hero1' component={Section1} />
         <Route path='/hero2' component={Section2} />
         <Route path='/hero3' component={Section3} />
+        <Route path='/hero4' component={Section4} />
       </Switch>
     </Router>
   );
