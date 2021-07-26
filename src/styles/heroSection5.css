@@ -1,0 +1,12 @@
+.main2 {
+  background: #fff;
+}
+
+.rot-div {
+  height: 50vh;
+  width: 100%;
+  background: #000;
+  overflow: hidden;
+  /* transform: rotate(45deg); */
+}
+

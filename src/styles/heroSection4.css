@@ -1,17 +1,13 @@
-* {
-  box-sizing: border-box !important;
-}
-
-body {
-  /* background: rgb(29, 29, 29); */
+.main {
   background: #031321;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
+  padding: 100px;
 }
 
-.main {
+.container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
