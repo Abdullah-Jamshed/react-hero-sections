@@ -17,4 +17,9 @@
 .rot-div h1 {
   color: #fff;
   font-size: 6rem;
+  background: -webkit-linear-gradient(-70deg, #a2facf, #64acff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
