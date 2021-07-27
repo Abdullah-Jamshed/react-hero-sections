@@ -308,6 +308,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 50%;
 }
 
 .box::before {
@@ -317,7 +318,8 @@
   top: -25%;
   height: 150%;
   width: 150%;
-  background-image: conic-gradient(#2196f3 20deg, transparent 120deg);
+  /* background-image: conic-gradient(#2196f3 20deg, transparent 120deg); */
+  background-image: conic-gradient(transparent 120deg, #2196f3 360deg);
   animation: rotate-c 2s linear infinite;
 }
 .box::after {
@@ -327,8 +329,9 @@
   top: 3%;
   height: 94%;
   width: 94%;
-  border-radius: 5px;
   background: rgb(17, 35, 61);
+  border-radius: 5px;
+  border-radius: 50%;
 }
 
 @keyframes rotate-c {
