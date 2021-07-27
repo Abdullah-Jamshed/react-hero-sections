@@ -1,12 +1,20 @@
 .main2 {
   background: #fff;
+  height: 100vh;
+  width: 100%;
+  position: relative;
 }
 
 .rot-div {
-  height: 50vh;
-  width: 100%;
-  background: #000;
-  overflow: hidden;
-  /* transform: rotate(45deg); */
+  height: 100%;
+  background: #0c0e0e;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.rot-div h1 {
+  color: #fff;
+  font-size: 6rem;
+}

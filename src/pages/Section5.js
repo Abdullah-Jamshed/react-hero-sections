@@ -8,8 +8,7 @@ const Section5 = () => {
       <Nav headingColor='#2196f3' />
       <div className='main2'>
         <div className='rot-div'>
-          <span className='spana'></span>
-          {/* <span className='spana'></span> */}
+          <h1>UNDER CONSTRUCTION !</h1>
         </div>
       </div>
     </>
