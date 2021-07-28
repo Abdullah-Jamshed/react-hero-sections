@@ -1,25 +1,41 @@
 .main2 {
   background: #fff;
-  height: 100vh;
+  height: 80vh;
   width: 100%;
   position: relative;
 }
 
 .rot-div {
+  position: relative;
   height: 100%;
   background: #0c0e0e;
   padding-top: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .rot-div h1 {
-  color: #fff;
-  font-size: 6rem;
+  text-align: center;
+  font-size: 4rem;
   background: -webkit-linear-gradient(-70deg, #a2facf, #64acff);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
+}
+
+.wave-2 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* height: auto; */
+  height: 360px;
+  background: red;
+  background: url(../images/wave-2.svg);
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-position: bottom;
+
 }

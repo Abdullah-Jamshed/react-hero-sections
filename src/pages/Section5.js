@@ -9,6 +9,7 @@ const Section5 = () => {
       <div className='main2'>
         <div className='rot-div'>
           <h1>UNDER CONSTRUCTION !</h1>
+          <div className='wave-2'></div>
         </div>
       </div>
     </>
