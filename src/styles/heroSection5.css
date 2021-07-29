@@ -3,6 +3,7 @@
   height: 80vh;
   width: 100%;
   position: relative;
+  overflow: hidden;
 }
 
 .rot-div {
@@ -17,6 +18,7 @@
 }
 
 .rot-div h1 {
+  /* display: none; */
   text-align: center;
   font-size: 4rem;
   background: -webkit-linear-gradient(-70deg, #a2facf, #64acff);
@@ -30,12 +32,9 @@
   position: absolute;
   bottom: 0;
   width: 100%;
-  /* height: auto; */
   height: 360px;
-  background: red;
   background: url(../images/wave-2.svg);
   background-repeat: no-repeat;
-  /* background-size: cover; */
+  background-size: cover;
   background-position: bottom;
-
 }
