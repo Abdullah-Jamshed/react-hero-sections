@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import Bar from "../images/menu.svg";
 
 import { FaChevronDown } from "react-icons/fa";
@@ -9,6 +9,8 @@ const Nav = ({ headingColor, navBg }) => {
   const [pageName, setPageName] = useState("home");
   const [scrollNav, setScrollNav] = useState(false);
   const [dropdownShow, setDropdownShow] = useState(false);
+
+  const history = useHistory();
 
   // HANDLER FUNCTIONS
   const changeNav = () => {
@@ -31,7 +33,12 @@ const Nav = ({ headingColor, navBg }) => {
   return (
     <nav className={`nav`} style={{ background: `${scrollNav ? `${navBg}` : "transparent"} ` }}>
       <div className='nav-container'>
-        <h2 className='brand-name' style={{ color: `${headingColor}` }}>
+        <h2
+          onClick={() => {
+            // history.push("/");
+          }}
+          className='brand-name'
+          style={{ color: `${headingColor}` }}>
           MYBRAND
         </h2>
         <ul className='links'>
