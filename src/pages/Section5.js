@@ -82,23 +82,3 @@ const Section5 = () => {
 };
 
 export default Section5;
-
-// import React from "react";
-// import Nav from "../components/Nav";
-// import "../styles/heroSection5.css";
-
-// const Section5 = () => {
-//   return (
-//     <>
-//       <Nav headingColor='#2196f3' navBg='#000' />
-//       <div className='main-cont'>
-//         <div className='sq-deg'></div>
-//         <div className='sq-deg1'>
-//           <div className="cubr"></div>
-//         </div>
-//       </div>
-//     </>
-//   );
-// };
-
-// export default Section5;
