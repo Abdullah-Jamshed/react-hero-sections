@@ -103,3 +103,42 @@
     opacity: 1;
   }
 }
+
+/* ******* About ********* */
+
+.about-container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #031321;
+  color: #fff;
+}
+
+.about-content {
+  padding: 20px;
+}
+
+.about-container h1 {
+  text-align: center;
+  font-size: 4rem;
+  background: -webkit-linear-gradient(-70deg, #a2facf, #64acff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  margin: 40px;
+}
+
+.about-container p {
+  text-align: center;
+  background: -webkit-linear-gradient(-70deg, #a2facf, #64acff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.8rem;
+  margin: 20px;
+}
