@@ -6,6 +6,7 @@ import Section2 from "../pages/Section2";
 import Section3 from "../pages/Section3";
 import Section4 from "../pages/Section4";
 import Section5 from "../pages/Section5";
+import Section6 from "../pages/Section6";
 
 const Routes = () => {
   return (
@@ -18,6 +19,7 @@ const Routes = () => {
         <Route path='/hero3' component={Section3} />
         <Route path='/hero4' component={Section4} />
         <Route path='/hero5' component={Section5} />
+        <Route path='/hero6' component={Section6} />
       </Switch>
     </Router>
   );
