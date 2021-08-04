@@ -33,7 +33,7 @@ const Section6 = () => {
             Moon Light
           </h1>
           <a style={{ marginTop: obj.btnTop }} className='parallax-btn' href='#ppp'>
-            Explore
+            Explore More
           </a>
           <img style={{ top: obj.mountains_front }} className='mountains_front' src='/images/mountains_front.png' alt='mountains_front' />
         </div>
