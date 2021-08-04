@@ -89,19 +89,3 @@ const Section5 = () => {
 
 export default Section5;
 
-// import React from "react";
-// import Nav from "../components/Nav";
-// import "../styles/heroSection5.css";
-
-// const Section5 = () => {
-//   return (
-//     <div className='main-cont-3'>
-//       <div className='tri'>
-//         <div className="sq-run"></div>
-//       </div>
-//       <div className='tri2'></div>
-//     </div>
-//   );
-// };
-
-// export default Section5;
