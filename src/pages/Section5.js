@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from "../components/Nav";
+import { Link } from "react-router-dom";
 import "../styles/heroSection5.css";
 
 const Section5 = () => {
@@ -38,7 +39,7 @@ const Section5 = () => {
               <div>
                 <h3>Design</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas hic dicta doloribus error repellendus eiu</p>
-                <a href='#'>Read More</a>
+                <Link to='#'>Read More</Link>
               </div>
             </div>
           </div>
@@ -51,7 +52,7 @@ const Section5 = () => {
               <div>
                 <h3>Code</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas hic dicta doloribus error repellendus eiu</p>
-                <a href='#'>Read More</a>
+                <Link to='#'>Read More</Link>
               </div>
             </div>
           </div>
@@ -64,7 +65,7 @@ const Section5 = () => {
               <div>
                 <h3>Launch</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas hic dicta doloribus error repellendus eiu</p>
-                <a href='#'>Read More</a>
+                <Link to='#'>Read More</Link>
               </div>
             </div>
           </div>
@@ -77,7 +78,7 @@ const Section5 = () => {
               <div>
                 <h3>Earn</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas hic dicta doloribus error repellendus eiu</p>
-                <a href='#'>Read More</a>
+                <Link to='#'>Read More</Link>
               </div>
             </div>
           </div>
@@ -88,4 +89,3 @@ const Section5 = () => {
 };
 
 export default Section5;
-

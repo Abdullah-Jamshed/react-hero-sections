@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Nav from "../components/Nav";
 import "../styles/heroSection4.css";
 
 const Section4 = () => {
   return (
     <>
-      <Nav headingColor="#2196f3" navBg="#111" />
+      <Nav headingColor='#2196f3' navBg='#111' />
       <div className='main'>
         <div className='container'>
           <div className='outer button'>
@@ -19,30 +20,27 @@ const Section4 = () => {
             <span></span>
           </div>
           <div className=''>
-            <a href='#' className='neon-btn'>
+            <Link to='#' className='neon-btn'>
               <span></span>
               <span></span>
               <span></span>
               <span></span>
               Hover Me
-            </a>
+            </Link>
           </div>
           <div className=''>
-            <a href='#' className='neon-btn2'>
+            <Link to='#' className='neon-btn2'>
               <span></span>
               <span></span>
               <span></span>
               <span></span>
               Hover Me
-            </a>
+            </Link>
           </div>
 
           <div className='box'>
             <h3 className='heading'> Loading</h3>
           </div>
-
-
-          
         </div>
       </div>
     </>
