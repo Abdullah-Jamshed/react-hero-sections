@@ -32,14 +32,14 @@ const Section6 = () => {
           <h1 style={{ marginRight: obj.headingRight, marginTop: obj.headingTop }} className='parallax-heading'>
             Moon Light
           </h1>
-          <a style={{ marginTop: obj.btnTop }} className='parallax-btn' href='#ppp'>
+          <a style={{ marginTop: obj.btnTop }} className='parallax-btn' href='#paragraph'>
             Explore More
           </a>
           <img style={{ top: obj.mountains_front }} className='mountains_front' src='/images/mountains_front.png' alt='mountains_front' />
         </div>
         <div className='parallax-scroll-effect'>
           <h2>Parallax Scroll Effect</h2>
-          <p id='ppp'>
+          <p id='paragraph'>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates magni impedit ea sit. Deserunt doloribus impedit nemo odit, aliquid
             vero necessitatibus quidem officia doloremque quos pariatur expedita alias! Aut, harum. Lorem ipsum, dolor sit amet consectetur
             adipisicing elit. Voluptates magni impedit ea sit. Deserunt doloribus impedit nemo odit, aliquid vero necessitatibus quidem officia

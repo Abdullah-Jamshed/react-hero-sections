@@ -4,6 +4,7 @@ html {
 .parallax-main-container {
   min-height: 100vh;
   background: linear-gradient(#2b1055, #7597de);
+  animation: load-hero6 0.5s ease-in;
 }
 
 .section-parallax {
@@ -15,7 +16,6 @@ html {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  transition: all 0.5s linear;
 }
 
 .section-parallax::before {
@@ -36,6 +36,7 @@ html {
   height: 100%;
   object-fit: cover;
   pointer-events: none;
+  transition: all 0.3s linear;
 }
 
 .moon {
@@ -53,6 +54,8 @@ html {
   font-size: 7.5vw;
   z-index: 9;
   right: -35rem;
+  transition: all 0.5s linear;
+
 }
 
 .parallax-btn {
@@ -76,8 +79,19 @@ html {
 .parallax-scroll-effect h2 {
   font-size: 3.4rem;
   color: #fff;
+
 }
 .parallax-scroll-effect p {
   font-size: 1.8rem;
+  line-height: 2.5rem;
   color: #fff;
+}
+
+@keyframes load-hero6 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

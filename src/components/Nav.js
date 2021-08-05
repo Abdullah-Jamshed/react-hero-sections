@@ -31,7 +31,7 @@ const Nav = ({ headingColor, navBg }) => {
   }, [pageName]);
 
   return (
-    <nav className={`nav`} data-bgColor='red' style={{ background: `${scrollNav ? `${navBg}` : "transparent"} ` }}>
+    <nav className={`nav`} style={{ background: `${scrollNav ? `${navBg}` : "transparent"} ` }}>
       <div className='nav-container'>
         <h2
           onClick={() => {

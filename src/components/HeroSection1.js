@@ -15,7 +15,7 @@ const HeroSection1 = () => {
           </h1>
           <h2 style={{ marginBottom: "20px" }}>
             {"Lorem ips o eum illo cupiditate accusamus, ".split(" ").map((word, i) => (
-              <span className={`${styles.animated} ${styles.fadeIn} `} style={{ animationDelay: `${i * 0.1}s` }}>
+              <span key={i} className={`${styles.animated} ${styles.fadeIn} `} style={{ animationDelay: `${i * 0.1}s` }}>
                 {word + ` `}
               </span>
             ))}
