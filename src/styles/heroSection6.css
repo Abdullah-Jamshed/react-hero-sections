@@ -55,7 +55,6 @@ html {
   z-index: 9;
   right: -35rem;
   transition: all 0.5s linear;
-
 }
 
 .parallax-btn {
@@ -79,7 +78,6 @@ html {
 .parallax-scroll-effect h2 {
   font-size: 3.4rem;
   color: #fff;
-
 }
 .parallax-scroll-effect p {
   font-size: 1.8rem;
