@@ -84,6 +84,17 @@ const Section5 = () => {
           </div>
         </div>
       </div>
+
+      <div className='main3'>
+        <div className='loader'>
+          <span style={{ "--i": 1 }} className='circle'></span>
+          <span style={{ "--i": 2 }} className='circle'></span>
+          <span style={{ "--i": 3 }} className='circle'></span>
+          <span style={{ "--i": 4 }} className='circle'></span>
+          <span style={{ "--i": 5 }} className='circle'></span>
+          <span style={{ "--i": 6 }} className='circle'></span>
+        </div>
+      </div>
     </>
   );
 };
