@@ -92,7 +92,7 @@ const Section5 = () => {
           <span style={{ "--i": 3 }} className='circle'></span>
           <span style={{ "--i": 4 }} className='circle'></span>
           <span style={{ "--i": 5 }} className='circle'></span>
-          <span style={{ "--i": 6 }} className='circle'></span>
+          {/* <span style={{ "--i": 6 }} className='circle'></span> */}
         </div>
       </div>
     </>
